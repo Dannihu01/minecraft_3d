@@ -1,7 +1,4 @@
-{
-  label = "laptop",
-  shapes = {
-    {0, 0, 0, 16, 2, 12, texture = "planks_oak"},   -- base
-    {0, 2, 10, 16, 10, 1, texture = "wool_black"}   -- screen
-  }
-}
+{shapes={
+    {0, 0, 0, 16, 2, 12, texture = "planks_oak"},
+    {0, 2, 10, 16, 10, 1, texture = "wool_black"}
+  }}
