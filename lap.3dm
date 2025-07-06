@@ -1,0 +1,19 @@
+return {
+  type = model,
+  parts = {
+    {
+      name = base,
+      texture = printertexturesdefault.png,
+      boxes = {
+        {0, 0, 0, 16, 2, 12}  -- x, y, z, width, height, depth
+      }
+    },
+    {
+      name = screen,
+      texture = printertexturesdefault.png,
+      boxes = {
+        {0, 2, 10, 16, 10, 1}  -- Positioned above back of base, upright screen
+      }
+    }
+  }
+}
